@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;400;500;900&display=swap');
+
+:root{
+	--color-subtitulos-general: #888585;
+	--color-titulos: #3c3838;
+	--color-numeros: #e6e8eb;
+	--color-azul: #19adf4;
+	--fondo-gris: #f3f3f3;
+	--fondo-footer: #383737;
+	--color-footer: #fff;
+}
+
+header{	
+font-family: 'Montserrat', sans-serif;
+background-color: var(--fondo-footer);
+color:#fff;
+}
+
+.titulo{
+	color: var(--color-titulos);	
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 55px;
+	
+}
+
+.subtitulo{
+	color: var(--color-subtitulos-general);
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 15px;
+}
+
+#herotitle{
+	background-image:url("img/header_bg.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 15% 0 10%;
+	text-align: center;
+	position: relative;
+}
+
+#herotitle h1{
+	color:#fff;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 55px;
+}
+
+.welcome p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.welcome h5{
+	font-family: 'Montserrat', sans-serif;
+	color: var(--color-numeros);
+	font-size: 50px;	
+}
+
+.welcome h3{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+.coaches{
+	background-color: var(--fondo-gris);
+}
+
+.coaches h3{
+	font-family: 'Oswald', sans-serif;
+	color: var(--color-titulos);	
+	font-size: 15px;
+	text-align: center;
+	margin: 10px;
+}
+
+.coaches h5{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: var(--color-subtitulos-general);
+	text-align: center;
+	font-style: italic;
+}
+
+.how-was{
+	text-align: left;
+}
+
+.how-was h4{
+	font-family: 'Montserrat', sans-serif;
+	color: var(--color-numeros);
+	font-size: 15px;
+}
+.how-was h2{
+	font-family: 'Oswald', sans-serif;
+	color: var(--color-titulos);	
+	font-size: 55px;
+	margin: 10px;
+}
+
+.how-was p{
+	color: var(--color-subtitulos-general);
+}
+
+.btn-azul{
+	border-radius: 60px;
+	background-color: var(--color-azul);
+	color:#fff;
+	text-align: center;
+	padding: 7px;
+	font-weight: 700;
+}
+
+.gallery{
+	background-color: var(--fondo-gris);
+	margin: 15px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	padding: 65px;
+	font-size: 30px;
+	color:#fff;
+	text-align: center;
+}
+
+footer i{
+		border: 1px solid var(--color-footer);
+	border-radius: 100%;
+	text-align: center;
+	display: block;
+	line-height: 50px;
+}
+footer .img{
+	text-align: start;
+}
+
+
+	
